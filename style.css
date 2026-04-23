@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+.navbar{
+    height:60px;
+    background:#0f1111;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:white;
+}
+
+/* LOGO FIX */
+.nav-logo{
+    height:50px;
+    width:120px;
+}
+
+.nav-logo img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+/* BORDER */
+.border{
+    padding:5px;
+    border:1px solid transparent;
+}
+
+.border:hover{
+    border:1px solid white;
+}
+
+/* SEARCH */
+.searchBar{
+    display:flex;
+    width:600px;
+    height:40px;
+    background:white;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+select{
+    width:60px;
+    border:none;
+    background:#ccc;
+}
+
+.search{
+    width:100%;
+    border:none;
+    outline:none;
+    padding-left:10px;
+}
+
+.Sicon{
+    width:50px;
+    background:orange;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* PANEL */
+.panel{
+    background:#37475a;
+    color:white;
+    display:flex;
+    height:40px;
+    align-items:center;
+}
+
+.panel div{
+    margin:5px;
+}
+
+/* HERO */
+.hero{
+    height:60vh;
+    background:url("Images/61Z5DaOEVeL._SX3000_.jpg") center center/cover no-repeat;
+    width: 100vw;
+}
+
+/* GALLERY 4x3 */
+.shop{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding:20px;
+    background:#e3e6e6;
+}
+
+/* BOX */
+.b1{
+    background:white;
+    padding:15px;
+    height:360px;
+}
+
+/* IMAGE PERFECT FIT */
+.box-img{
+    height:260px;
+    width:100%;
+    background:#ddd; 
+    background-size:cover;
+    background-position:center;
+}
+.box-img img{
+    height: 260px;
+    width: 261px;
+}
+
+/* FOOTER */
+.foot{
+    background:#37475a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top: 20px;
+}
+
+.footer{
+    background:#232f3e;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    padding:30px;
+}
